@@ -1,0 +1,124 @@
+body {
+  background-color: #c7e400;
+}
+
+h1 {
+  color: black;
+  font-family: Andalé Mono, monospace;
+  font-weight: bold;
+}
+p {
+  color: black;
+  font-family: Lucida, monospace;
+  font-size: 20px;
+}
+
+#boton {
+  background-color: black;
+  font-family: Lucida, monospace;
+  color: white;
+  font-size: 20px;
+}
+
+#boton:hover {
+color: #c7e400;
+}
+
+#boton1 {
+  background-color: black;
+  font-family: Lucida, monospace;
+  color: white;
+  font-size: 20px;
+}
+
+#boton1:hover {
+color: #c7e400;
+}
+
+#link {
+  background-color: black;
+  color: white;
+  font-family: Lucida, monospace;
+  font-size: 20px;
+}
+
+#link:hover{
+  color: #c7e400;
+}
+
+.predict {
+  color: black;
+  font-family: Andalé Mono, monospace;
+  font-size: 20px;
+}
+
+.maincontainer {
+  position: relative;
+  width: 250px;
+  height: 320px;
+  border: 10px;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5% ease;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: black;
+  color: white;
+  overflow-wrap: break-word;
+  font-family: Lucida, monospace;
+  font-size: 34px;
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #c7e400;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+#foto {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+}
+
+.sup {
+  display: flex;
+  border: 10px;
+}
+
+#foto1 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+}
+
+#foto2 {
+  position: absolute;
+  width: 250px;
+  height: 320px;
+}
+
+.parrafo {
+  position: relative;
+  width: 50%;
+}
