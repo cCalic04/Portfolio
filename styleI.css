@@ -1,0 +1,198 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border: 0px;
+  margin: 0px;
+  overflow: hidden;
+  justify-content: space-evenly;
+  text-align: start;
+  align-items: center;
+  z-index: 10;
+  background-color: black;
+  
+}
+
+#titulopag {
+  display: flex;
+  flex-direction: row;
+  border: 2px;
+  margin: 5px;
+  overflow: hidden;
+  padding: 2% 5%;
+  text-align: end;
+  align-items: start;
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.shortcut {
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+
+}
+
+#link1 {
+  position: relative;
+  margin-left: 10%;
+}
+
+#link2 {
+  position: relative;
+  margin-left: 25%;
+}
+
+#link3 {
+  position: relative;
+  margin-right: -2%;
+}
+
+
+.shortcut:hover {
+  color: red;
+}
+
+.shortcut:hover,
+#titulopag:hover {
+  color: red;
+  transition: color 0.3s ease-in-out;
+}
+
+#titulopag:hover {
+  color: red;
+}
+
+.todo {
+  position: absolute;
+  padding: 1%;
+}
+
+.main {
+  display: flex; /* Arrange items in a row */
+  flex-direction: row; /* Keep text and image in the same row */
+  justify-content: flex-start; /* Align items to the start of the container */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.maintext {
+  display: flex; /* Arrange items in a row */
+  flex-direction: column; /* Keep text and image in the same row */
+  justify-content: flex-start; /* Align items to the start of the container */
+  align-items: flex-start; /* Align items to the top */
+  width: 60%;
+  margin-left: 5%;
+}
+
+.samples {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  text-align: end;
+  align-items: stretch;
+  position: relative;
+  right: 0;
+  margin-right: 10%;
+  margin-left: auto;
+  height: 580px;
+  width: 440px;
+}
+
+.titulos {
+  color: red;
+  width: 60%;
+  font-family: "cofo-gothic-variable", sans-serif;
+  font-variation-settings: "wght" 900;
+  font-optical-sizing: auto;
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+  font-size: 100px;
+  font-style: italic;
+  width: 60%;
+  text-decoration: none;
+  text-align: end;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  align-items: stretch;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-align: end; /* Align the descriptive text to the left */
+  width: 60%; /* Set width of the text column */
+  position: relative;
+
+}
+
+.imagenes {
+  position: relative;
+  padding: 2%;
+}
+
+.galeria {
+  
+}
+
+.resaltar {
+  font-size: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 98%;
+    justify-content: space-around;
+  }
+  #titulopag {
+    font-size: 12px;
+  }
+  .shortcut {
+    font-size: 15px;
+  }
+  .titulos {
+    font-size: 50px;
+    width: 25%;
+  }
+  .samples {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  .resaltar {
+    font-size: 55px;
+    width: 25%;
+  }
+  .texto {
+    font-size: 13px;
+    width: ;
+  }
+}
