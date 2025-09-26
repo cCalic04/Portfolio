@@ -1,0 +1,88 @@
+.picosa1 {
+  position: absolute;
+  width: 100%;
+  float: right;
+}
+
+.mitra {
+  position: absolute;
+  width: 100%;
+}
+
+#pic1 {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  filter: drop-shadow(9px 9px 2px rgb(0 0 0 / 0.4));
+}
+
+.texto {
+  position: absolute;
+  width: 25%;
+  float: left;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    transform: scale(0.7);
+    transform-origin: 0 0;
+  }
+  .texto {
+    width: 95%;
+    float: none;
+    margin-top: 800px;
+  }
+  .pic1 {
+    width: 262px;
+    height: 325px;
+  }
+  .return {
+    float: none;
+    margin-right: 5px;
+    width: 140%;
+  }
+  #pic1 {
+    filter: drop-shadow(9px 18px 2px rgb(0 0 0 / 0.4));
+  }
+}
+
+h1 {
+  color: black;
+  font-family: Andalé Mono, monospace;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-family: Lucida, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  background: #fff503;
+}
+
+.return {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: auto;
+}
+
+#link {
+  background-color: black;
+  color: white;
+  font-family: Lucida, monospace;
+  font-size: 40px;
+}
+
+#link:hover {
+  color: yellow;
+}
+
+#pic1:hover {
+  cursor: pointer;
+}

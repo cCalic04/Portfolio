@@ -1,0 +1,72 @@
+.picosa1 {
+  position: absolute;
+  width: 100%;
+  float: right;
+}
+
+.mitra {
+  position: absolute;
+  width: 100%;
+}
+
+#pic1 {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(3px 9px 2px rgb(0 0 0 / 0.4));
+}
+
+.texto {
+  position: absolute;
+  width: 50%;
+  float: left;
+  margin-left: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: Andalé Mono, monospace;
+  font-weight: bold;
+}
+
+h2 {
+  color: yellow;
+  font-family: Andalé Mono, monospace;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-family: Lucida, monospace;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body {
+  background: black;
+}
+
+.link {
+  background-color: black;
+  color: white;
+  font-family: Lucida, monospace;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.link:hover {
+  color: yellow;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .texto {
+    width: 75%;
+  }
+}
