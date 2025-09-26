@@ -1,11 +1,11 @@
 //cartas
 const imagenes = [
-  "https://cdn.glitch.global/b9547f30-d27e-4ca3-8ef2-267d73725f75/hangedman.png?v=1726029380354",
-  "https://cdn.glitch.global/b9547f30-d27e-4ca3-8ef2-267d73725f75/tower.png?v=1726029377877",
-  "https://cdn.glitch.global/b9547f30-d27e-4ca3-8ef2-267d73725f75/death.png?v=1726029375410",
-  "https://cdn.glitch.global/b9547f30-d27e-4ca3-8ef2-267d73725f75/justiec.png?v=1726029371776",
-  "https://cdn.glitch.global/b9547f30-d27e-4ca3-8ef2-267d73725f75/wheel.png?v=1726029368886",
-  "https://cdn.glitch.global/b9547f30-d27e-4ca3-8ef2-267d73725f75/chariot.png?v=1726041582366",
+  "https://raw.githubusercontent.com/cCalic04/Portfolio/refs/heads/revert-2-cCalic04-Oraculo/hangedman.png",
+  "https://raw.githubusercontent.com/cCalic04/Portfolio/refs/heads/revert-2-cCalic04-Oraculo/tower.png",
+  "https://raw.githubusercontent.com/cCalic04/Portfolio/refs/heads/revert-2-cCalic04-Oraculo/death.png",
+  "https://raw.githubusercontent.com/cCalic04/Portfolio/refs/heads/revert-2-cCalic04-Oraculo/justiec.png",
+  "https://raw.githubusercontent.com/cCalic04/Portfolio/refs/heads/revert-2-cCalic04-Oraculo/wheel.png",
+  "https://raw.githubusercontent.com/cCalic04/Portfolio/refs/heads/revert-2-cCalic04-Oraculo/chariot.png",
 ];
 //titulo
 const cabecera = [
